@@ -1,0 +1,40 @@
+header{
+ width: 100%;
+ height: 200px;
+ background: red;
+}
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.header-wrap{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header_list{
+	display: flex;
+}
+.header_item{
+	margin-right: 100px;
+}
+.burger_line{
+	width: 40px;
+	height: 7px;
+	background: blue;
+	margin: 8px;
+}
+.header_nav{
+	display: flex;
+}
+.burger{
+	display: none;
+}
+@media screen and (max-width: 840px){
+	.burger{
+		display: block;
+	}
+	.header_list{
+		display: none;
+	}
+}

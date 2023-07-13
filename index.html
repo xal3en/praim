@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PRAIM</title>
+
+	<link rel="stylesheet" type="text/css" href="css/itc-slider.css">
+		<link rel="stylesheet" type="text/css" href="css/accordion.css">
+			<link rel="stylesheet" type="text/css" href="css/style.css">
+			<link rel="stylesheet" type="text/css" href="normalize.css">
+
+</head>
+<body>
+	<header class="header">
+		<div class="container"> 
+		 <nav class="nav">
+                <ul class="header_list">
+                    <li class="header_item"><a href="#" class="nav_link">Главная</a></li>
+                    <li class="header_item"><a href="#" class="nav_link">Об игре</a></li>
+                    <li class="header_item"><a href="#" class="nav_link">Корзина</a></li>
+                    <li class="header_item"><a href="#" class="nav_link">Наши работы</a></li>
+                    <li class="header_item"><a href="#" class="nav_link">Новости игры</a></li>
+                </ul>
+                <div class="burger" onclick="open_menu()"> 
+                    <div class="burger_line"></div>
+                    <div class="burger_line"></div>
+                    <div class="burger_line"></div>
+                </div>
+            </nav>
+			<button class="btn_menu" id="btn_menu">Меню</button>
+			<div class="header__menu" id="menu">
+				<ul class="menu__list">
+					<li class="menu__item"><a href="">Зарегистрироваться</a></li>
+					<li class="menu__item"><a href="">Вход</a></li>
+					<li class="menu__item"><a href="">Личный кабинет</a></li>
+					<li class="menu__item"><a href="">Выход</a></li>
+</ul>
+			</div>
+		</div>
+	</header>
+	<main class="main">
+		<section class="shop">
+	<div class="container">
+		<h1 class="shop_title">ПРАЙМЫ</h1>
+		<div class="itc-slider" data-slider="itc-slider" >
+			<div class="itc-slider-wrapper">
+			<div class="itc-slider-items">
+			<div class="itc-slider-item">
+				<img class="shop_img" src="img/shop_prim.jfif">
+
+			</div>
+						<div class="itc-slider-item">
+				<img class="shop_img" src="img/1.jpg">
+				
+			</div>
+				<div class="itc-slider-item">
+				<img class="shop_img" src="img/2.jpeg">
+				
+			</div>
+		</div>
+		</div>
+  <button class="itc-slider-btn itc-slider-btn-prev"></button>
+  <button class="itc-slider-btn itc-slider-btn-next"></button>
+		</div>
+
+		<div class="accordion" id="accordion-1">
+			<div class="accordion__item">
+				<h2 class="accordion__header">О товаре</h2>
+				<div class="accordion__body">
+						<p class="shop_text">Купить прайм-статус
+Counter-Strike: Global Offensive и Counter-Strike 2: для пользователей с прайм-статусом подбираются игроки с тем же статусом. Ещё они могут получать эксклюзивные для прайм-статуса сувениры, предметы и оружейные кейсы.
+
+Этот комплект даёт прайм-статус в Counter-Strike: Global Offensive и Counter-Strike 2.</p>
+					</div>
+				</div>
+				<div class="accordion__item">
+					<h2 class="accordion__header">Цена</h2>
+					<div class="accordion__body">
+				<button class="shop_btn" type="button" id="button" onclick="buy()">865 руб</button>
+					</div>
+				</div>
+		</div>
+
+		
+
+
+	</div>
+</section>
+	<section class="video">
+		<video autoplay muted id="vidos_1">
+			<source src="video/1.mp4" type="video/mp4">
+		</video>
+
+		<div class="content">
+			<h3 class="video_title_1">Стоит ли покупать CS: GO Prime Status | Обзор</h3>
+			<button class="video_1" id="pause" onclick="stop()">||</button>
+				<button class="video_1" id="muted" onclick="mute()">🔈</button>	
+				<button class="video_1" id="next" onclick="next()">↓</button>
+				<button class="video_1" id="prev" onclick="prev()">↑</button>
+
+		
+		</div>
+	</section>
+	<div class="basket">
+		<button class="basket_btn">
+			<a href="basket.html" class="bsk"><img class="in bsk" src="img/corz.png"></a>
+		</button>
+		<h2 class="price">0</h2>
+	</div>
+	</main>
+
+	<footer class="footer">
+<p></p>
+	</footer>
+
+
+<script src="scripts/script.js"></script>
+<script src="scripts/menu.js"></script>
+<script src="scripts/itc-slider.js"></script>
+<script src="scripts/accordion.js"></script>
+<script src="scripts/Burger.js"></script>
+<script src="scripts/pause.js"></script>
+</body>
+</html>

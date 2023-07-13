@@ -1,0 +1,169 @@
+.header__menu{
+	position: absolute;
+	z-index: 1;
+	background: rgb(249, 78, 37, 0.7);
+	width: 300px;
+	height: 100px;
+	padding: 40px;
+	display: none;
+}
+.is-active
+{
+	display: block;
+}
+.shop_title{
+	margin-left: 45%;
+	color: rgb(210, 197, 214);
+	font-family: 'Geologica', sans-serif;
+	margin-bottom: 20px;
+	margin-top: 0px;
+}
+.container{
+	padding: 15px;
+}
+.accordion__body
+{
+	background: rgb(34, 21, 176);
+}
+.shop_btn{
+	background: rgb(30, 13, 214);
+	margin-left: 46%;
+}
+.main{
+	background: rgb(13, 49, 120);
+}
+.header{
+	background: rgb(3, 26, 71);
+}
+.itc-slider{
+	width: 500px;
+	margin-left: 34%;
+}
+.shop_img{
+	width: 500px;
+}
+.shop_text{
+	color: rgb(228, 221, 235);
+}
+header{
+ width: 100%;
+ height: 200px;
+ background: red;
+}
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.header-wrap{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header_list{
+	display: flex;
+}
+.header_item{
+	margin-right: 100px;
+	width: 100px;
+		list-style: none;
+		font-family: 'Roboto', sans-serif;
+}
+
+.nav_link{
+	text-decoration: none;
+}
+.burger_line{
+	width: 40px;
+	height: 7px;
+	background: blue;
+	margin: 8px;
+}
+.header_nav{
+	display: flex;
+}
+.burger{
+	display: none;
+}
+#vidos_1{
+	width: 100%;
+}
+.video{
+	position: relative;
+
+}
+.video_1{
+	background: none;
+	width: 100%;
+border: none;
+height: 50px;
+color: yellow;
+}
+.content{
+	position: absolute;
+		bottom: 0;
+	width: 100%;
+	background: rgb(0,0,0,0.5);
+}
+.basket_btn{
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+.basket{
+	display: flex;
+	align-items: center;
+	position: fixed;
+	z-index: 10;
+	left: 100;
+	right: 0;
+	top: 0;
+}
+body{
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+main{
+	flex: 1 1 auto;
+}
+.upt{
+	display: none;
+}
+.adder{
+	border: none;
+	cursor: pointer;
+	background: none;
+	color: yellow;
+}
+@media screen and (max-width: 840px){
+	body{
+		overflow-x: hidden;
+	}
+	.burger{
+		display: block;
+	}
+	.header_list{
+	position: absolute;
+	right: 0;
+	display: flex;
+	flex-direction: column;
+	background: red;
+	height: 15vh;
+	z-index: 10;
+	align-items: center;
+	top: 0;
+	width: 45%;
+	list-style: none;
+	transform: translateX(100%);
+
+
+	}
+	.open{
+		transform: translateX(0%);
+	}
+.nav_link{
+	color: yellow;
+	text-decoration: none;
+
+}
+}
