@@ -14,6 +14,7 @@ let btn_text = document.createTextNode("-")
 none.appendChild(btn_text)
 none.setAttribute("onclick", "Delete()")
 
+// jdsfkpo
 
 function update(){
 spawn.appendChild(adder_li);
